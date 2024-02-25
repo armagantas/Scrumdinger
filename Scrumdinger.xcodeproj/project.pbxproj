@@ -22,6 +22,8 @@
 		EB6F794D2B880B95002FCCE9 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F794C2B880B95002FCCE9 /* MeetingFooterView.swift */; };
 		EB6F794F2B880E6E002FCCE9 /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F794E2B880E6E002FCCE9 /* AVPlayer+Ding.swift */; };
 		EB75948B2B829D62002847EC /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB75948A2B829D62002847EC /* DetailEditView.swift */; };
+		EB780CE92B8B713F00AA97C6 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB780CE82B8B713F00AA97C6 /* NewScrumSheet.swift */; };
+		EB780CEB2B8B767C00AA97C6 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB780CEA2B8B767C00AA97C6 /* History.swift */; };
 		EB897F672B85518000E07E41 /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB897F662B85518000E07E41 /* ThemeView.swift */; };
 		EB897F692B8552D100E07E41 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB897F682B8552D100E07E41 /* ThemePicker.swift */; };
 		EBD266D42B81273500F2C4DE /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBD266D32B81273500F2C4DE /* TrailingIconLabelStyle.swift */; };
@@ -67,6 +69,8 @@
 		EB6F794C2B880B95002FCCE9 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		EB6F794E2B880E6E002FCCE9 /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		EB75948A2B829D62002847EC /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		EB780CE82B8B713F00AA97C6 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
+		EB780CEA2B8B767C00AA97C6 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		EB897F662B85518000E07E41 /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		EB897F682B8552D100E07E41 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		EBD266D32B81273500F2C4DE /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
@@ -172,6 +176,7 @@
 				EB6F79462B880499002FCCE9 /* MeetingHeaderView.swift */,
 				EB6F79482B8809F1002FCCE9 /* ScrumProgressViewStyle.swift */,
 				EB6F794C2B880B95002FCCE9 /* MeetingFooterView.swift */,
+				EB780CE82B8B713F00AA97C6 /* NewScrumSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				EBE10A312B8029FF000DCB9F /* DailyScrum.swift */,
 				EB6F794A2B880A1D002FCCE9 /* ScrumTimer.swift */,
 				EB6F794E2B880E6E002FCCE9 /* AVPlayer+Ding.swift */,
+				EB780CEA2B8B767C00AA97C6 /* History.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -317,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB780CEB2B8B767C00AA97C6 /* History.swift in Sources */,
 				EB897F692B8552D100E07E41 /* ThemePicker.swift in Sources */,
 				EB6F79492B8809F1002FCCE9 /* ScrumProgressViewStyle.swift in Sources */,
 				EB6F794D2B880B95002FCCE9 /* MeetingFooterView.swift in Sources */,
@@ -325,6 +332,7 @@
 				EB667C252B81721A00DF3BF1 /* DetailView.swift in Sources */,
 				EB6F79472B880499002FCCE9 /* MeetingHeaderView.swift in Sources */,
 				EB75948B2B829D62002847EC /* DetailEditView.swift in Sources */,
+				EB780CE92B8B713F00AA97C6 /* NewScrumSheet.swift in Sources */,
 				EBD266D42B81273500F2C4DE /* TrailingIconLabelStyle.swift in Sources */,
 				EBE10A2F2B802795000DCB9F /* Theme.swift in Sources */,
 				EB1AF59B2B813C22008A9D7C /* ScrumsView.swift in Sources */,
